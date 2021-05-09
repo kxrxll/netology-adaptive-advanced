@@ -1,0 +1,317 @@
+@media (min-width: 641px) and (max-width: 1200px) {
+  .noemi-header {
+    background-image: url(../img/banner-bg-tablet.jpg);
+  }
+
+  .header {
+    width: 100%;
+    margin: auto;
+  }
+
+  .menu-list {
+    display:none;
+  }
+
+  .top-menu::before{
+    content:"";
+    display: block;
+    background-image: url("../svg/burger.svg");
+    width: 25px;
+    height: 20px;
+    position: absolute;
+    right: 50px;
+    cursor: pointer;
+  }
+
+  .noemi-heading{
+    font-size: 2.5rem;
+  }
+
+  .in-trend-header {
+    font-size: 1.125rem;
+  }
+
+  .in-trend-posts{
+    flex-wrap: wrap;
+  }
+
+  .in-trend-post{
+    width:49.6%;
+    height: 240px;
+    margin-right: 0;
+  }
+
+  .in-trend-post:nth-child(2n){
+    margin-left: 0.8%;
+  }
+
+  .in-trend-post:nth-child(n+3){
+    margin-top: 4px;
+  }
+
+  .tag{
+    font-size: 0.875rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .in-trend-post-header{
+    font-size: 1.0625rem;
+  }
+
+  .content{
+    width: 100%;
+    margin-top: 180px;
+    padding-left: 4%;
+    padding-right: 4%;
+  }
+
+  .posts{
+    width: 60%;
+  }
+
+  .post {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 545px;
+  }
+
+  .post-pic{
+    width: 100%;
+  }
+
+  .post-content{
+    margin-left: 0;
+  }
+
+  .post:last-child .post-content::after{
+    display: none;
+  }
+
+  .post-header{
+    font-size: 1.0625rem;
+  }
+
+  .post-content::after {
+    content: "";
+    display: block;
+    background-color: #0f0d0e;
+    opacity: 0.1;
+    width: 100%;
+    height: 3px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+
+  .our-products{
+    width:100%;
+  }
+
+  .our-products-header{
+    font-size: 1.125rem;
+  }
+
+  .products{
+    flex-wrap: wrap;
+  }
+
+  .product{
+    width: 48.5%;
+  }
+
+  .product:nth-child(n+3){
+    margin-top: 40px;
+  }
+
+  .product-header{
+    font-size: 1.0625rem;
+  }
+
+  .footer{
+    width:100%;
+  }
+}
+
+@media (max-width: 640px) {
+  .noemi-header {
+    background-image: url(../img/banner-mobile.jpg);
+  }
+
+  .header {
+    position: relative;
+    width: 100%;
+    margin: auto;
+    height: 638px;
+  }
+
+  .menu-list {
+    display:none;
+  }
+
+  .top-menu::before{
+    content:"";
+    display: block;
+    background-image: url("../svg/burger.svg");
+    width: 25px;
+    height: 20px;
+    position: absolute;
+    right: 20px;
+    cursor: pointer;
+  }
+
+  .noemi-logo{
+    position: absolute;
+    margin: 0 auto;
+    top: 225px;
+    right: 12%;
+    width: 76%;
+    height: 60px;
+    background-size: contain;
+  }
+
+  .noemi-heading{
+    width: 100%;
+    font-size: 1.625rem;
+    line-height: 2.25rem;
+    padding-top: 280px;
+  }
+
+  .in-trend{
+    height: 1050px;
+    padding-top: 30px;
+  }
+
+  .in-trend-header {
+    font-size: 1rem;
+  }
+
+  .in-trend-posts{
+    flex-wrap: wrap;
+  }
+
+  .in-trend-post{
+    width: 100%;
+    height: 240px;
+    margin-right: 0;
+  }
+
+
+  .in-trend-post:nth-child(n+2){
+    margin-top: 4px;
+  }
+
+  .tag{
+    font-size: 0.875rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .in-trend-post-header{
+    font-size: 1rem;
+  }
+
+  .content{
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 20px;
+    padding-left: 4%;
+    padding-right: 4%;
+  }
+
+  .posts{
+    width: 100%;
+  }
+
+  .post {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 545px;
+  }
+
+  .post-content{
+    margin-left: 0;
+  }
+
+  .post-header{
+    font-size: 1rem;
+  }
+
+  .post-additional-info{
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .post-content::after {
+    content: "";
+    display: block;
+    background-color: #0f0d0e;
+    opacity: 0.1;
+    width: 100%;
+    height: 3px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+
+  .main-control{
+    margin-right: auto;
+  }
+
+  .our-products{
+    margin-top: 30px;
+    width:100%;
+  }
+
+  .our-products-header{
+    font-size: 1rem;
+  }
+
+  .products{
+    flex-wrap: wrap;
+  }
+
+  .product{
+    width: 100%;
+  }
+
+  .product:nth-child(n+2){
+    margin-top: 60px;
+  }
+
+  .product-header{
+    font-size: 1rem;
+  }
+
+  .product-description{
+
+  }
+
+  .footer{
+    width:100%;
+  }
+}
+
+
+@media (max-width: 640px) and (orientation: landscape){
+
+  .in-trend{
+    height: 540px;
+    padding-top: 30px;
+  }
+
+  .in-trend-post{
+    width:49.6%;
+    margin-top: 0;
+  }
+
+  .in-trend-post:nth-child(2n){
+    margin-left: 0.8%;
+  }
+
+  .in-trend-post:nth-child(n+3){
+    margin-top: 4px;
+  }
+}

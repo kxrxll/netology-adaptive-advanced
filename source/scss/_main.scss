@@ -1,0 +1,83 @@
+.content {
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 1200px;
+  margin: auto;
+  display: flex;
+  padding-top: 65px;
+}
+
+.posts {
+  color: #0f0d0e;
+  width: 810px;
+  display: flex;
+  flex-direction: column;
+}
+
+.posts-header{
+  width: 1px;
+  height: 1px;
+  clip: rect(1px, 1px, 1px, 1px);
+  position: absolute;
+}
+
+.post {
+  display: flex;
+  justify-content: space-between;
+  height: 294px;
+  margin-bottom: 60px;
+}
+
+.post-content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+  margin-right: 30px;
+  font-family: "Open sans", "Arial", sans-serif;
+}
+
+.tags {
+  display: flex;
+  list-style: none;
+  text-transform: uppercase;
+  color: $gold;
+  font-weight: bold;
+  font-size: 14px;
+}
+.tag {
+  margin-right: 18px;
+}
+
+.tag:hover a {
+  color: #0f0d0e;
+}
+
+.post-header {
+  margin-top: 3px;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+.post-additional-info{
+  margin-top: 24px;
+  margin-bottom: 40px;
+}
+
+.post-date {
+  font-size: 12px;
+}
+.post-author {
+  display: inline-block;
+  font-style: normal;
+  margin-left: 8px;
+  font-size: 12px;
+  font-weight: bold;
+}
+.post-text {
+  display: block;
+  font-size: 15px;
+}
+.post-text:nth-child(n+2) {
+  margin-top: 10px;
+}

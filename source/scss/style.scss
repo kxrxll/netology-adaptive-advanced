@@ -1,0 +1,16 @@
+@font-face {
+  src: url(../fonts/OpenSans-Regular.woff2);
+  src: url(../fonts/OpenSans-Bold.woff2);
+}
+
+$gold: #b59f5b;
+
+@import 'reset';
+@import 'header';
+@import 'trend';
+@import 'main';
+@import 'products';
+@import 'aside';
+@import 'footer';
+@import 'media';
+@import 'modal';

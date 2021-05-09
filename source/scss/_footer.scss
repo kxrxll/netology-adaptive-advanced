@@ -1,0 +1,80 @@
+.footer{
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 1200px;
+  margin: auto;
+}
+
+.social-media{
+  display:block;
+  background-color: #f4f7f6;
+  padding-bottom: 25px;
+  padding-top: 30px;
+}
+
+.social-media-list{
+  list-style:none;
+  display:flex;
+  justify-content: center;
+}
+
+.social-media-item a {
+  display: block;
+  width: 23px;
+  height: 23px;
+  font-size:0;
+}
+
+.social-media-item:hover{
+  outline: 4px solid #b59f5b;
+  outline-offset: 5px;
+  cursor:pointer;
+}
+
+.social-media-item:nth-child(n+2){
+  margin-left:25px;
+}
+
+.social-media-item:nth-child(1){
+  background-image: url(../svg/004-twitter.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.social-media-item:nth-child(2){
+  background-image: url(../svg/001-pinterest.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.social-media-item:nth-child(3){
+  background-image: url(../svg/002-facebook-logo.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.social-media-item:nth-child(4){
+  background-image: url(../svg/005-instagram.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.social-media-item:nth-child(5){
+  background-image: url(../svg/003-tumblr.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.copyright {
+  margin-top: 60px;
+  padding-bottom: 60px;
+  text-align: center;
+  font-family: "Open sans", "Arial", sans-serif;
+  opacity: 0.6;
+  font-size: 12px;
+}

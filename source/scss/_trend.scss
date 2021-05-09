@@ -1,0 +1,87 @@
+.in-trend{
+  padding-top: 65px;
+  font-family: "Open sans", "Arial", sans-serif;
+}
+
+.in-trend-header {
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.in-trend-header::after {
+  content: "";
+  display: block;
+  background-color: #b59f5b;
+  opacity: 0.4;
+  width: 65px;
+  height: 3px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+
+.in-trend-posts{
+  padding-top: 28px;
+  display: flex;
+  height: 320px;
+}
+
+.in-trend-post{
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 24.8%;
+  background-color: slategray;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-right: auto;
+  position: relative;
+}
+
+.in-trend-post::before {
+  content: "";
+  opacity: 0.6;
+  background-color: #000000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.in-trend-post:nth-child(1){
+  background-image: url(../img/trend1.jpg);
+}
+
+.in-trend-post:nth-child(2) {
+  background-image: url(../img/trend2.jpg);
+}
+
+.in-trend-post:nth-child(3) {
+  background-image: url(../img/trend3.jpg);
+}
+
+.in-trend-post:nth-child(4) {
+  background-image: url(../img/trend4.jpg);
+}
+
+.in-trend-post:last-child{
+  margin-right: 0;
+}
+
+.in-trend-content{
+  position: relative;
+  border: 4px solid #b59f5b;
+  padding: 32px;
+  margin: 0 20px 20px 20px;
+}
+
+.in-trend-post-header{
+  margin-top: 3px;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color:#ffffff;
+}
